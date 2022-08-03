@@ -1,15 +1,19 @@
 <script>
+
 export default {
-    name: "AdviceBox"
+    name: "AdviceBox",
+    props: {
+        advice: Object
+    }
 }
 </script>
 
 <template>
     <div class="h-screen w-screen grid place-content-center">
         <div class="relative w-96 h-56 bg-dark-grayish-blue pt-8 rounded-xl px-10">
-            <h2 class="text-neon-green uppercase text-xs font-semibold tracking-widest mb-5">Advice #117</h2>
+            <h2 class="text-neon-green uppercase text-xs font-semibold tracking-widest mb-5">Advice #{{ advice.id }}</h2>
             <div>
-                <q class="text-light-cyan">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, vero?</q>
+                <q class="text-light-cyan">{{ advice.advice }}</q>
                 <img src="../assets/pattern-divider-desktop.svg" alt="divider" class="mt-5">
             </div>
 
