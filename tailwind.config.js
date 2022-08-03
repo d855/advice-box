@@ -3,7 +3,7 @@ module.exports = {
     content: ['./public/**/*.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
     theme: {
         letterSpacing: {
-          widest: '.25em'
+            widest: '.25em'
         },
         extend: {
             colors: {
@@ -15,6 +15,9 @@ module.exports = {
             },
             spacing: {
                 desktop: '90rem'
+            },
+            boxShadow: {
+                buttonShadow: '0 0 20px'
             }
         },
     },
