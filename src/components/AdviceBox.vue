@@ -39,7 +39,7 @@ export default {
             <h2 class="text-neon-green uppercase text-xs font-semibold tracking-widest mb-5 transition-all duration-700 ease-in-out">
                 Advice #{{ advice.id }}</h2>
             <div class="mb-16">
-                <q class="text-light-cyan">{{ advice.advice }}</q>
+                <q class="text-light-cyan text-xl">{{ advice.advice }}</q>
                 <img src="../assets/pattern-divider-desktop.svg" alt="divider" class="mt-5">
             </div>
 
