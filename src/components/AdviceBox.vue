@@ -35,7 +35,7 @@ export default {
 
 <template>
     <div class="h-screen w-screen grid place-content-center">
-        <div class="relative w-96 h-auto bg-dark-grayish-blue pt-8 rounded-xl px-10">
+        <div class="relative w-72 sm:w-desktop h-auto bg-dark-grayish-blue flex flex-col items-center pt-8 rounded-xl px-10">
             <h2 class="text-neon-green uppercase text-xs font-semibold tracking-widest mb-5 transition-all duration-700 ease-in-out">
                 Advice #{{ advice.id }}</h2>
             <div class="mb-16">

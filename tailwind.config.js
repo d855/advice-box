@@ -14,7 +14,7 @@ module.exports = {
                 'dark-blue': 'hsl(218, 23%, 16%)'
             },
             spacing: {
-                desktop: '90rem'
+                desktop: '30rem'
             },
             boxShadow: {
                 buttonShadow: '0 0 20px'
